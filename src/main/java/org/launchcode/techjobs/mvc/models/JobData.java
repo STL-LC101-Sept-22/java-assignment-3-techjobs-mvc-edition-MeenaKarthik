@@ -80,7 +80,9 @@ public class JobData {
     }
 
     public static String getFieldValue(Job job, String fieldName){
+
         String theValue;
+
         if (fieldName.equals("name")){
             theValue = job.getName();
         } else if (fieldName.equals("employer")){
